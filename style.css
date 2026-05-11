@@ -181,6 +181,40 @@ display: flex;
 gap: 40px;
 margin-top: 50px;
 }
+.seciton4{
+width: 100%;
+height: 400px;
+background-image: url(./images/Group\ 757.png);
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+row-gap: 20px;
+}
+.seciton4 h1{
+font-size: 45px;
+color: white;
+width: 80%;
+text-align: center;
+background-color: #07AF91;
+}
+.seciton4 p{
+color: white;
+font-size: 20px;
+}
+.seciton4 button{
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: #1C80B9;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
 
 @media (max-width: 510px) {
     .header {
@@ -261,5 +295,15 @@ text-align: center;
 }
 .cardss3{
 width: 90%;
+}
+.seciton4 h1{
+font-size: 30px;
+}
+.seciton4{
+height: 500px;
+}
+.seciton4 p{
+width: 80%;
+text-align: center;
 }
 }
