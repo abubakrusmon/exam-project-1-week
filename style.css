@@ -549,6 +549,95 @@ color: #2D8CFF;
 margin-left: 190px;
 margin-top: 50px;
 }
+.section11{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.titlesection11{
+    color: #1C80B9;
+    margin-left: 180px;
+    font-size: 45px;
+}
+
+.obshiydivss11{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cardsection11{
+    width: 380px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(199, 199, 199, 0.459);
+    margin: 15px;
+}
+
+.topsection11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.imgsection11{
+    width: 70px;
+}
+
+.titlecardsection11{
+    width: 250px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.centersection11{
+    padding: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.subtitlesection11{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.textsection11{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.bottomsection11{
+    padding: 30px;
+}
+
+.rowsection11{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.pricesection11{
+    color: #1C80B9;
+    font-weight: 700;
+}
+
+.btnsection11{
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1C80B9;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
 
 @media (max-width: 510px) {
     .header {
@@ -876,5 +965,67 @@ margin-top: 50px;
     .seciton10{
     margin-left: 0;
     }
+    .section11{
+        width: 100%;
+        margin-top: 50px;
+    }
 
-}   
+    .titlesection11{
+        margin-left: 0;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .obshiydivss11{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .cardsection11{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .topsection11{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .imgsection11{
+        width: 60px;
+    }
+
+    .titlecardsection11{
+        width: 90%;
+        font-size: 26px;
+    }
+
+    .centersection11{
+        padding: 20px;
+    }
+
+    .subtitlesection11{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .textsection11{
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .bottomsection11{
+        padding: 20px;
+    }
+
+    .rowsection11{
+        font-size: 17px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .btnsection11{
+        height: 55px;
+    }
+}
