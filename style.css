@@ -224,89 +224,138 @@
     font-size: 17px;
     font-weight: 700;
 }
-.seciton5 h1{
-     color: #1C80B9;
+
+.seciton5 h1 {
+    color: #1C80B9;
     margin-top: 100px;
-    margin-left: 190px;   
+    margin-left: 190px;
 }
-.divimgss5{
-display: flex;
-justify-content: center;
+
+.divimgss5 {
+    display: flex;
+    justify-content: center;
 }
-.divimgss5 img{
-width: 75%;
-margin-top: 30px;
+
+.divimgss5 img {
+    width: 75%;
+    margin-top: 30px;
 }
-.obshiydiv2ss5{
-display: flex;
-align-items: center;
-gap: 10px;
+
+.obshiydiv2ss5 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
-.divleftss5 h1{
-color: #000000;
-font-size: 40px;
-width: 400px;
-margin-left: 0;
+
+.divleftss5 h1 {
+    color: #000000;
+    font-size: 40px;
+    width: 400px;
+    margin-left: 0;
 }
-.divleftss5 p{
+
+.divleftss5 p {
+    font-size: 20px;
+    width: 300px;
+}
+
+.divleftss5 button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #1C80B9;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.divleftss5 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top: -100px;
+}
+
+.carddivrightss5 {
+    width: 280px;
+    height: 200px;
+    box-shadow: 0px 0px 10px rgb(204, 203, 203);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divrightss5 h1 {
+    font-size: 40px;
+    margin-left: 0;
+    color: #1C80B9;
+    margin-top: -0px;
+}
+
+.carddivright2ss5 {
+    width: 280px;
+    height: 200px;
+    box-shadow: 0px 0px 10px rgb(204, 203, 203);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C80B9;
+}
+
+.divrightss5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 30px;
+}
+
+.obshiydivss5 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.divimgadaptivss5 {
+    display: none;
+}
+
+.seciton6 h1{
+    color: #1C80B9;
+    margin-top: 100px;
+    margin-left: 190px;
+}
+.seciton6 p{
 font-size: 20px;
-width: 300px;
-}
-.divleftss5 button{
-width: 150px;
-height: 50px;
-border: none;
-background-color: #1C80B9;
-border-radius: 10px;
-color: white;
-font-size: 15px;
-font-weight: 700;
-}
-.divleftss5{
-display: flex;
-flex-direction: column;
-row-gap: 40px;
-margin-top: -100px;
+width: 75%;
+margin: auto;
+margin-top: 20px;
 }
 .carddivrightss5{
-width: 280px;
-height: 200px;
-box-shadow: 0px 0px 10px rgb(204, 203, 203);
-border-radius: 10px;
 display: flex;
 justify-content: center;
 align-items: center;
 }
-.divrightss5 h1{
-font-size: 40px;
-margin-left: 0;
-color: #1C80B9;
-margin-top: -0px;
+.cardss6{
+width: 350px;
+height: 300px;
+box-shadow: 0px 0px 10px rgba(190, 188, 188, 0.612);
+border-radius: 15px;
+font-size: 70px;
+margin-top: 100px;
 }
-.carddivright2ss5{
-width: 280px;
-height: 200px;
-box-shadow: 0px 0px 10px rgb(204, 203, 203);
-border-radius: 10px;
+.divh1{
 display: flex;
+margin-left: -50px;
+margin-top: -50px;
+}
+.obshiydivss6{
+display: flex;
+gap: 50px;
 justify-content: center;
-align-items: center;
-background-color: #1C80B9;
-}
-.divrightss5{
-display: flex;
-flex-wrap: wrap;
-width: 50%;
-gap: 30px;
-}
-.obshiydivss5{
-display: flex;
-justify-content: space-evenly;
-margin-left: 100px;
-margin-top: 50px;
-}
-.divimgadaptivss5{
-display: none;
 }
 @media (max-width: 510px) {
     .header {
@@ -404,44 +453,73 @@ display: none;
         width: 80%;
         text-align: center;
     }
-    .seciton5 h1{
+
+    .seciton5 h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .divimgadaptivss5 {
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .divimgadaptivss5 img {
+        width: 90%;
+    }
+
+    .divimgss5 {
+        display: none;
+    }
+
+    .obshiydivss5 {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .divleftss5 {
+        margin-left: 0;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .divleftss5 p {
+        text-align: center;
+    }
+
+    .obshiydiv2ss5 {
+        flex-direction: column;
+    }
+
+    .divrightss5 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .seciton6 h1{
     margin-left: 0;
     text-align: center;
     }
-    .divimgadaptivss5{
-    display: block;
-    display: flex;
-    justify-content: center;
+    .seciton6 p{
+    text-align: center;
+    }
+    .obshiydivss6{
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 30px;
     margin-top: 50px;
     }
-    .divimgadaptivss5 img{
-    width: 90%;
+    .obshiydivss6 h1{
+    margin-left: 180px;
     }
-    .divimgss5{
-    display: none;
+    .cardss6{
+    margin-top: 0px;
     }
-    .obshiydivss5{
-    margin-left: 0;
-    flex-direction: column;
-    }
-    .divleftss5{
-    margin-left: 0;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: nowrap;
-    align-items: center;
-    }
-    .divleftss5 p{
-    text-align: center;
-    }
-    .obshiydiv2ss5{
-        flex-direction: column;
-}
-.divrightss5{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-margin-left: 100px;
-margin-top: 50px;
-}
+    
 }
