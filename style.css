@@ -638,7 +638,30 @@ margin-top: 50px;
     font-size: 20px;
     font-weight: 700;
 }
-
+.section12 h1{
+font-size: 40px;
+color: #1f8de2;
+margin-left: 180px;
+margin-top: 50px;
+}
+.divrightss12 img{
+    width: 500px;
+}
+.divleftss12 p{
+font-size: 20px;
+width: 450px;
+}
+.divleftss12{
+display: flex;
+flex-direction: column;
+row-gap: 30px;
+}
+.obshiyss12{
+display: flex;
+justify-content: space-evenly;
+margin-top: 70px;
+align-items: center;
+}
 @media (max-width: 510px) {
     .header {
         width: 100%;
@@ -1027,5 +1050,20 @@ margin-top: 50px;
 
     .btnsection11{
         height: 55px;
+    }
+    .obshiyss12{
+    flex-direction: column;
+    }
+    .divrightss12 img{
+    width: 90%;
+    }
+    .divrightss12{
+    display: flex;
+    justify-content: center;
+    }
+    .divleftss12 p{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
     }
 }
