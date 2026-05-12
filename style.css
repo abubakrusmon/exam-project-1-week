@@ -525,7 +525,6 @@ margin-top: 50px;
 
 .rightsection9{
     width: 600px;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -536,16 +535,19 @@ margin-top: 50px;
     height: 110px;
     background-color: white;
     border-radius: 12px;
-
     display: flex;
     justify-content: center;
     align-items: center;
 
     margin: 10px;
 }
-
 .imgsection9{
     width: 120px;
+}
+.seciton10{
+color: #2D8CFF;
+margin-left: 190px;
+margin-top: 50px;
 }
 
 @media (max-width: 510px) {
@@ -867,6 +869,12 @@ margin-top: 50px;
 
     .imgsection9{
         width: 90px;
+    }
+    .seciton10 h1{
+    margin-left: 20px;
+    }
+    .seciton10{
+    margin-left: 0;
     }
 
 }   
