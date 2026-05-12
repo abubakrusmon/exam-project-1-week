@@ -357,6 +357,17 @@ display: flex;
 gap: 50px;
 justify-content: center;
 }
+.divimgss7 img{
+width: 75%;
+}
+.divimgss7{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+.divimgss7adaptiv{
+display: none;
+}
 @media (max-width: 510px) {
     .header {
         width: 100%;
@@ -520,6 +531,18 @@ justify-content: center;
     }
     .cardss6{
     margin-top: 0px;
+    }
+    .divimgss7adaptiv{
+        display: block;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    }
+    .divimgss7adaptiv img{
+    width: 90%;
+    }
+    .divimgss7{
+    display: none ;
     }
     
 }
