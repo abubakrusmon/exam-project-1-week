@@ -472,6 +472,81 @@ margin-top: 50px;
     cursor: pointer;
     font-size: 16px;
 }
+.section9{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.backsection9{
+    width: 100%;
+    height: 500px;
+    background-color: #2D8CFF;
+    background-image: url(./images/Group\ 796.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.leftsection9{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.titlesection9{
+    color: white;
+    font-size: 55px;
+    width: 550px;
+}
+
+.textsection9{
+    color: white;
+    font-size: 22px;
+    width: 500px;
+    line-height: 35px;
+}
+
+.btnsection9{
+    width: 350px;
+    height: 70px;
+    border: none;
+    border-radius: 12px;
+    background-color: #07AF91;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.rightsection9{
+    width: 600px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardsection9{
+    width: 180px;
+    height: 110px;
+    background-color: white;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+}
+
+.imgsection9{
+    width: 120px;
+}
 
 @media (max-width: 510px) {
     .header {
@@ -742,5 +817,56 @@ margin-top: 50px;
     margin: auto;
     margin-top: 50px;
     }
+    .section9{
+        width: 100%;
+        margin-top: 50px;
+    }
 
-}
+    .backsection9{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        row-gap: 40px;
+    }
+
+    .leftsection9{
+        align-items: center;
+    }
+
+    .titlesection9{
+        width: 90%;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .textsection9{
+        width: 90%;
+        font-size: 17px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .btnsection9{
+        width: 90%;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    .rightsection9{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cardsection9{
+        width: 140px;
+        height: 90px;
+        margin: 8px;
+    }
+
+    .imgsection9{
+        width: 90px;
+    }
+
+}   
